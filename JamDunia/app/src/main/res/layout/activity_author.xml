@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Author">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bioskop21"
+            style="@style/CategoryStyle"
+            android:background="@color/merah"
+            android:text="@string/category_Bioskop21"
+            android:onClick="indonesia"/>
+
+        <TextView
+            android:id="@+id/serialtv"
+            style="@style/CategoryStyle"
+            android:background="@color/category_numbers"
+            android:text="@string/category_serial_tv"
+            android:onClick="australia"
+           />
+
+        <TextView
+            android:id="@+id/layarkaca"
+            style="@style/CategoryStyle"
+            android:background="@color/category_family"
+            android:text="@string/category_layar_kaca"
+            android:onClick="eropa"
+            />
+
+        <TextView
+            android:id="@+id/genre"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colors"
+            android:text="@string/category_Genre"
+            android:onClick="afrika"
+            />
+
+        <TextView
+            android:id="@+id/Negara"
+            style="@style/CategoryStyle"
+            android:background="@color/category_phrases"
+            android:text="@string/category_Negara"
+            android:onClick="amerika"
+           />
+
+    </LinearLayout>
+
+
+</LinearLayout>

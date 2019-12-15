@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Jam Dunia</string>
+    <string name="name">name</string>
+    <string name="position">position</string>
+    <string name="birth_date">Birth date</string>
+    <string name="no">no</string>
+
+
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_Bioskop21">Zona Waktu Indonesia</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_Negara">Zona Waktu Benua Amerika</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_Genre">Zona Waktu Benua Afrika</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_serial_tv">Zona Waktu Benua Australia </string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_layar_kaca">Zona Waktu Benua Eropa</string>
+
+
+
+</resources>
